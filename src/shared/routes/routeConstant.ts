@@ -1,6 +1,6 @@
 const RouteConstant = {
   login: { path: "/login", title: "Login" },
-  homePage: { path: "/homePage", title: "HomePage" },
+  homePage: { path: "/", title: "HomePage" },
   contactInfo: { path: "/contactInfo", title: "Contact Information" },
   resume: { path: "/resume", title: "Resume" },
   projects: { path: "/projects", title: "Projects" },
