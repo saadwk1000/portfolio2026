@@ -5,6 +5,7 @@ const Projects = () => {
   return (
     <div className={classNames(styles.mainContainer)}>
       <h1>Hello Projects</h1>
+      <button>Moye Moye</button>
     </div>
   );
 };

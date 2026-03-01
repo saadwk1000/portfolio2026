@@ -1,0 +1,44 @@
+.mainContainer {
+  display: flex;
+  background-color: violet;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  max-height: fit-content;
+  padding: 20px;
+}
+
+.infoEnclosure {
+  display: grid;
+  margin: 0;
+  background-color: brown;
+  gap: 2px;
+}
+
+img {
+  align-self: flex-start;
+  width: 150px;
+  height: 150px;
+}
+
+.heading {
+  background-color: yellow;
+  align-self: flex-start;
+  text-align: start;
+  padding: 5px 20px;
+
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  padding: 5px 20px;
+
+  text-align: left;
+}
+
+.tenure {
+  margin: 0;
+  padding: 5px 20px;
+  text-align: left;
+}

@@ -8,10 +8,7 @@ interface ApexChartProps {
   height?: number;
 }
 
-const ApexChart: React.FC<ApexChartProps> = ({
-  series,
-  height = 350
-}) => {
+const ApexChart: React.FC<ApexChartProps> = ({ series, height = 350 }) => {
   const options = useMemo<ApexOptions>(() => {
     return structureBarChart;
   }, []);
